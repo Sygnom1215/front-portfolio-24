@@ -4,4 +4,27 @@ header {
     width: 100%;
     
     background-color: rgb(0, 201, 201);
+    
+    display: flex;
+}
+
+.pull-left {    float: left;    }
+
+h3 {
+    position: fixed right;
+    margin: 0;
+    padding: 10px;
+    float: right;
+}
+
+#master-title {
+    font-size: 30px;
+    color: #181818;
+}
+
+.menu-title {
+    display: block;
+    height: 30px; line-height: 30px;
+    text-align: center;
+    padding: 5px 20px;
 }
