@@ -1,11 +1,20 @@
-import Layout from "./components/Layout/Layout";
+import Footer from "./components/Layout/Footer/Footer"
+import Header from "./components/Layout/Header/Header"
 
+import Main from  "./page/main";
 
 function App() {
   return (
     <div>
-    <Layout />
-  
+      {/* <div>
+      <Header />
+      </div> */}
+
+      <div>
+        <Main />
+      </div>
+
+
     </div>
   );
 }
