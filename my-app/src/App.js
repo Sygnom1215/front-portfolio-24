@@ -4,7 +4,7 @@ import Header from "./components/Layout/Header/Header"
 import Footer from "./components/Layout/Footer/Footer"
 
 import Content from "./components/Content/Content"
-import { blogPost } from './data';
+import { blogPosts } from './data';
 
 function App() {
   return (
@@ -14,9 +14,13 @@ function App() {
       </div> 
 
       <div className ="content-card">
-        <Content title={blogPost.title} body={blogPost.body}/>
-
-
+        {blogPosts.map(post => (
+                <Content 
+                    key={post.id} 
+                    title={post.title} 
+                    body={post.body} 
+                />
+            ))}
       </div>
 
       <div>
