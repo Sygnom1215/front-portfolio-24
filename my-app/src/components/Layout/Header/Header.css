@@ -2,29 +2,15 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    
-    background-color: rgb(0, 201, 201);
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(145, 230, 230);
     
     display: flex;
 }
 
-.pull-left {    float: left;    }
-
-h3 {
-    position: fixed right;
-    margin: 0;
-    padding: 10px;
-    float: right;
-}
-
 #master-title {
-    font-size: 30px;
+    font-size: 28px;
     color: #181818;
-}
 
-.menu-title {
-    display: block;
-    height: 30px; line-height: 30px;
-    text-align: center;
-    padding: 5px 20px;
+    padding: 5px 16px 5px 16px;
 }

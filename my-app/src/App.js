@@ -1,20 +1,22 @@
-import Footer from "./components/Layout/Footer/Footer"
 import Header from "./components/Layout/Header/Header"
+import Footer from "./components/Layout/Footer/Footer"
 
-import Main from  "./page/main";
+import Content from "./components/Content/Content"
 
 function App() {
   return (
     <div>
-      {/* <div>
-      <Header />
-      </div> */}
-
       <div>
-        <Main />
+      <Header />
+      </div> 
+
+      <div className ="content-card">
+        <Content />
       </div>
 
-
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

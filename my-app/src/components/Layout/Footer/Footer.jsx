@@ -3,7 +3,7 @@ import "./Footer.css"
 const Footer = () => {
     return (
       <footer>
-        <h2>This is Footer</h2>
+        <p id="footer-item">  © 2021 Sygnom's blog. All rights reserved. </p>
       </footer>
     )
   }
