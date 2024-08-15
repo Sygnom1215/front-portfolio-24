@@ -2,6 +2,7 @@ import Header from "./components/Layout/Header/Header"
 import Footer from "./components/Layout/Footer/Footer"
 
 import Content from "./components/Content/Content"
+import { blogPost } from './data';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div> 
 
       <div className ="content-card">
-        <Content />
+        <Content title={blogPost.title} body={blogPost.body}/>
       </div>
 
       <div>
