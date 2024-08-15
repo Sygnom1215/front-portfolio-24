@@ -1,3 +1,5 @@
+import "./App.css";
+
 import Header from "./components/Layout/Header/Header"
 import Footer from "./components/Layout/Footer/Footer"
 
@@ -13,6 +15,8 @@ function App() {
 
       <div className ="content-card">
         <Content title={blogPost.title} body={blogPost.body}/>
+
+
       </div>
 
       <div>
