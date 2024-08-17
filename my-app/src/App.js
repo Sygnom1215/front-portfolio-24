@@ -5,6 +5,7 @@ import Footer from "./components/Layout/Footer/Footer"
 
 import Content from "./components/Content/Content"
 import { blogPosts } from './data';
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
                 />
             ))}
       </div>
-
+      <div>
+        <Sidebar />
+      </div>
       <div>
         <Footer />
       </div>

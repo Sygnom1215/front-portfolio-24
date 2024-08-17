@@ -8,7 +8,6 @@ const Content = ({ title, body }) => {
             <hr className="line"></hr>
             <p className="content-body">{body}</p>
         </div>
-
     </div>
     );
 };
