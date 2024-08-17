@@ -1,11 +1,13 @@
 .content {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: rgb(0, 0, 0);
+    width: 84vw;
+    height: 1600px;
+    background-color: #24212b;
     border-radius: 10px;
 
     margin: 30px 0px 30px 0px ;
+    box-shadow: 5px 5px 10px;
 }
 
 .content-card {
