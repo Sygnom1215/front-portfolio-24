@@ -11,3 +11,30 @@
     flex-direction: column;
     box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+.side-text {
+    font-size: 18px;
+
+    margin: 10px 0;
+}
+
+.side-link {
+    font-size: 18px;
+    margin: 0px 0px 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: green;
+    background-color: rgba(0, 0, 0, 0.2);
+}

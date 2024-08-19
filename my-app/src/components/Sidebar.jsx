@@ -3,8 +3,11 @@ import './Sidebar.css';
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <h2>Image</h2>
-            <p>discription</p>
+            <img src="https://avatars.githubusercontent.com/u/77712386?v=4" alt="profile" />
+            <h4 class="side-text">박소형</h4>
+            <h4 class="side-text">2005.09.22</h4>
+            <h4 class="side-text">Links :</h4>            
+            <h4 class="side-link"><a href="https://github.com/Sygnom1215" style={{textDecoration: "none"}}>GitHub</a></h4> 
    
         </div>
     );

@@ -2,13 +2,13 @@
 export const blogPosts = [
     {
         id: 1,
-        title: "First Blog Post",
-        body: "This is the content of the first blog post."
+        title: "이미 접속했던 링크의 색을 바꾸는 방법",
+        body: "사이드바 구현을 하던 도중, <a> 태그만을 활용해 링크를 구현하면 보라색으로 표시되는 것을 확인했다.<br> 이를 해결하기 위해서는 CSS를 활용해야 한다. a:visited { color: white; } 이렇게 하면 방문한 링크의 색을 흰색으로 바꿀 수 있다. 또한, a:hover { color: green; } 이렇게 하면 마우스를 올렸을 때의 색을 초록색으로 바꿀 수 있다. 이렇게 하면 방문한 링크와 마우스를 올렸을 때의 색을 바꿀 수 있다."
     },
     {
         id: 2,
-        title: "Second Blog Post",
-        body: "This is the content of the second blog post."
+        title: "반응형 웹을 구현해야 하는 이유",
+        body: "지금 내가 개발한 웹을 보다시피, 반응형으로 구현되어있지 않다. 그래서 웹페이지를 확대하거나 축소하면 레이아웃이 깨지고 글씨도 한 줄로 주르륵 써진다. 다음에는 글의 길이에 따라 게시물의 크기를 조정하는 기능과, 화면의 크기에 따라 맞춰지는 기능을 구현해야겠다. 또한, 이렇게 배열에 글을 때려넣으면 마크다운 문법을 사용할 수 없는 현상을 발견했다. 들여쓰기, 볼드체 사용하기 등 모든 것들이 불가능하다. 이것에 대한 기능 추가와 구조 수정을 고안해 보아야겠다."
     },
     {
         id: 3,
