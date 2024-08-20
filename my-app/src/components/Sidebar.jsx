@@ -8,6 +8,7 @@ const Sidebar = () => {
             <h4 class="side-text">2005.09.22</h4>
             <h4 class="side-text">Links :</h4>            
             <h4 class="side-link"><a href="https://github.com/Sygnom1215" style={{textDecoration: "none"}}>GitHub</a></h4> 
+            <h4 class="side-link"><a href="https://thgudthgud.tistory.com/" style={{textDecoration: "none"}}>Tistory Blog</a></h4> 
    
         </div>
     );
